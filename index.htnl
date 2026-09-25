@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MPSC Notes | Study Portal</title>
+    <title>MPSC Notes | Current Affairs</title>
     
     <!-- Google Fonts: Noto Sans Devanagari for Marathi/English mixed content -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,47 +121,339 @@
         <!-- Subject List Area -->
         <div class="flex flex-col gap-4">
             
-            <!-- 🔵 SUBJECT 1: Current Affairs (Template) -->
+            <!-- 🔵 SUBJECT: Current Affairs -->
             <div class="rounded-xl bg-lightSurface dark:bg-darkSurface border border-borderLight dark:border-borderDark shadow-sm overflow-hidden">
-                <button onclick="toggleAccordion('subj-1', 'icon-s1')" class="w-full text-left flex items-center justify-between p-4 md:p-5 border-l-4 border-subjLight dark:border-subjDark hover:bg-[#F3F4F6] dark:hover:bg-[#20252D] transition-colors focus:outline-none">
-                    <div class="flex items-center gap-3">
-                        <span class="text-lg md:text-xl font-bold text-subjLight dark:text-subjDark">Current Affairs</span>
+                
+                <!-- Subject Header -->
+                <button onclick="toggleAccordion('subj-current-affairs', 'icon-ca')" class="w-full text-left flex items-center justify-between p-4 md:p-5 border-l-4 border-subjLight dark:border-subjDark hover:bg-[#F3F4F6] dark:hover:bg-[#20252D] transition-colors focus:outline-none">
+                    <div class="flex flex-col gap-1">
+                        <span class="text-lg md:text-xl font-bold text-subjLight dark:text-subjDark uppercase tracking-wide">Current Affairs</span>
+                        <span class="text-sm text-lightSec dark:text-darkSec font-medium">Prelims + Mains Integrated — Final Master Syllabus</span>
                     </div>
-                    <span id="icon-s1" class="chevron text-lightSec dark:text-darkSec">▼</span>
+                    <span id="icon-ca" class="chevron text-lightSec dark:text-darkSec text-xl">▼</span>
                 </button>
 
-                <div id="subj-1" class="hidden flex-col gap-3 p-3 md:p-5 pt-0 bg-lightSurface dark:bg-darkSurface">
+                <!-- Subject Content (Parts) -->
+                <div id="subj-current-affairs" class="hidden flex-col gap-3 p-3 md:p-5 pt-0 bg-lightSurface dark:bg-darkSurface">
                     
                     <!-- 🟤 PART A -->
                     <div class="mt-3 border border-borderLight dark:border-borderDark rounded-lg overflow-hidden bg-lightBg dark:bg-[#13161B]">
-                        <button onclick="toggleAccordion('part-1a', 'icon-p1a')" class="w-full text-left p-3 md:p-4 border-l-4 border-brandPartLight dark:border-brandPartDark hover:bg-[#EAE5DF] dark:hover:bg-[#1D2128] transition-colors flex items-center justify-between focus:outline-none">
+                        <button onclick="toggleAccordion('part-a', 'icon-pa')" class="w-full text-left p-3 md:p-4 border-l-4 border-brandPartLight dark:border-brandPartDark hover:bg-[#EAE5DF] dark:hover:bg-[#1D2128] transition-colors flex items-center justify-between focus:outline-none">
                             <div class="flex flex-col gap-1">
                                 <span class="text-xs md:text-sm font-bold text-brandPartLight dark:text-brandPartDark uppercase tracking-wider">Part A</span>
                                 <span class="text-base md:text-lg font-semibold text-lightMain dark:text-darkMain">Month-wise Current Affairs</span>
                             </div>
-                            <span id="icon-p1a" class="chevron text-lightSec dark:text-darkSec text-lg">▾</span>
+                            <span id="icon-pa" class="chevron text-lightSec dark:text-darkSec text-lg">▾</span>
                         </button>
                         
                         <!-- 🟢 Chapters in Part A -->
-                        <div id="part-1a" class="hidden flex-col gap-2 p-3 bg-lightBg dark:bg-[#13161B]">
+                        <div id="part-a" class="hidden flex-col gap-2 p-3 bg-lightBg dark:bg-[#13161B]">
                             
-                            <!-- Chapter 1 -->
+                            <!-- 17-Point Checklist Reference Card -->
+                            <div class="mb-4 p-4 rounded-lg border border-borderLight dark:border-borderDark bg-lightSurface dark:bg-darkSurface">
+                                <h4 class="text-sm font-bold text-lightMain dark:text-darkMain mb-2">17-Point Checklist for each month:</h4>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-xs md:text-sm text-lightSec dark:text-darkSec">
+                                    <span>1. National Affairs</span>
+                                    <span>2. Maharashtra Affairs</span>
+                                    <span>3. Polity & Governance</span>
+                                    <span>4. Economy & Banking</span>
+                                    <span>5. Agriculture & Rural Development</span>
+                                    <span>6. International Affairs</span>
+                                    <span>7. Science & Technology</span>
+                                    <span>8. Space & Defence</span>
+                                    <span>9. Environment & Climate</span>
+                                    <span>10. Sports</span>
+                                    <span>11. Awards & Honours</span>
+                                    <span>12. Appointments & Important Persons</span>
+                                    <span>13. Reports, Indices & Rankings</span>
+                                    <span>14. Government Schemes & Initiatives</span>
+                                    <span>15. Acts, Bills, Amendments & Judgments</span>
+                                    <span>16. Summits, Conferences & Organisations</span>
+                                    <span>17. Books, Authors, Days, Themes, Culture & Heritage</span>
+                                </div>
+                            </div>
+
+                            <!-- Chapters 1 to 13 -->
                             <a href="january2026.html" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
                                 <div class="flex flex-col gap-1">
                                     <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 1</span>
                                     <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">January 2026 Current Affairs</span>
                                 </div>
                             </a>
-                            
-                            <!-- Note: You can copy-paste the above <a> block for Chapter 2, 3, etc. -->
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 2</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">February 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 3</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">March 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 4</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">April 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 5</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">May 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 6</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">June 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 7</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">July 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 8</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">August 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 9</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">September 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 10</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">October 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 11</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">November 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 12</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">December 2026 Current Affairs</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 13</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">January 2027 Exam-Focused Current Affairs</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- 🟤 PART B -->
+                    <div class="mt-2 border border-borderLight dark:border-borderDark rounded-lg overflow-hidden bg-lightBg dark:bg-[#13161B]">
+                        <button onclick="toggleAccordion('part-b', 'icon-pb')" class="w-full text-left p-3 md:p-4 border-l-4 border-brandPartLight dark:border-brandPartDark hover:bg-[#EAE5DF] dark:hover:bg-[#1D2128] transition-colors flex items-center justify-between focus:outline-none">
+                            <div class="flex flex-col gap-1">
+                                <span class="text-xs md:text-sm font-bold text-brandPartLight dark:text-brandPartDark uppercase tracking-wider">Part B</span>
+                                <span class="text-base md:text-lg font-semibold text-lightMain dark:text-darkMain">Fixed Reference Chapters</span>
+                            </div>
+                            <span id="icon-pb" class="chevron text-lightSec dark:text-darkSec text-lg">▾</span>
+                        </button>
+                        
+                        <!-- 🟢 Chapters in Part B -->
+                        <div id="part-b" class="hidden flex-col gap-2 p-3 bg-lightBg dark:bg-[#13161B]">
+                            <p class="px-2 text-xs text-lightSec dark:text-darkSec mb-1">Created once as master reference instead of writing repeatedly in month-wise notes.</p>
+                            
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 14</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important National & International Organisations</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">UN, IMF, World Bank, WTO, WHO, UNESCO, UNICEF, ADB, AIIB, BRICS, Regional organisations</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 15</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Indian Institutions & Regulatory Bodies</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">RBI, SEBI, NABARD, SIDBI, IRDAI, PFRDA, NITI Aayog, CAG, Election Commission, UPSC</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 16</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Reports, Indices & Rankings</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">Report/Index, Publisher, Measurement, India Rank, Maharashtra data</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 17</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Government Schemes & Flagship Programmes</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 18</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Acts, Bills & Constitutional Amendments</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 19</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Awards & Honours</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">Bharat Ratna, Padma Awards, Gallantry Awards, Nobel Prize, Booker, Pulitzer, Magsaysay</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 20</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Major Sports Tournaments, Cups & Championships</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 21</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Days & Annual Themes</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 22</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Who's Who / Important Appointments</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 23</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Science, Technology & Space Master Reference</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">ISRO, Space missions, Satellites, Biotechnology, AI, Defence technology</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 24</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Environment & Climate Master Reference</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">National Parks, Wildlife Sanctuaries, Tiger Reserves, Ramsar Sites, COP</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 25</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Maharashtra Current Affairs Master Reference</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 26</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Numbers, Data & Statistics</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 27</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Important Places, Projects & Infrastructure</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- 🟤 PART C -->
+                    <div class="mt-2 border border-borderLight dark:border-borderDark rounded-lg overflow-hidden bg-lightBg dark:bg-[#13161B]">
+                        <button onclick="toggleAccordion('part-c', 'icon-pc')" class="w-full text-left p-3 md:p-4 border-l-4 border-brandPartLight dark:border-brandPartDark hover:bg-[#EAE5DF] dark:hover:bg-[#1D2128] transition-colors flex items-center justify-between focus:outline-none">
+                            <div class="flex flex-col gap-1">
+                                <span class="text-xs md:text-sm font-bold text-brandPartLight dark:text-brandPartDark uppercase tracking-wider">Part C</span>
+                                <span class="text-base md:text-lg font-semibold text-lightMain dark:text-darkMain">Previous Current Affairs</span>
+                            </div>
+                            <span id="icon-pc" class="chevron text-lightSec dark:text-darkSec text-lg">▾</span>
+                        </button>
+                        
+                        <!-- 🟢 Chapters in Part C -->
+                        <div id="part-c" class="hidden flex-col gap-2 p-3 bg-lightBg dark:bg-[#13161B]">
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 28</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">July–December 2025 Selective Current Affairs</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">Major awards, appointments, schemes, international events, reports, science, space</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 29</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">January–June 2025 High-Impact Current Affairs</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">Highly relevant and long-term impact events only</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- 🟤 PART D -->
+                    <div class="mt-2 border border-borderLight dark:border-borderDark rounded-lg overflow-hidden bg-lightBg dark:bg-[#13161B]">
+                        <button onclick="toggleAccordion('part-d', 'icon-pd')" class="w-full text-left p-3 md:p-4 border-l-4 border-brandPartLight dark:border-brandPartDark hover:bg-[#EAE5DF] dark:hover:bg-[#1D2128] transition-colors flex items-center justify-between focus:outline-none">
+                            <div class="flex flex-col gap-1">
+                                <span class="text-xs md:text-sm font-bold text-brandPartLight dark:text-brandPartDark uppercase tracking-wider">Part D</span>
+                                <span class="text-base md:text-lg font-semibold text-lightMain dark:text-darkMain">Exam-Oriented Revision</span>
+                            </div>
+                            <span id="icon-pd" class="chevron text-lightSec dark:text-darkSec text-lg">▾</span>
+                        </button>
+                        
+                        <!-- 🟢 Chapters in Part D -->
+                        <div id="part-d" class="hidden flex-col gap-2 p-3 bg-lightBg dark:bg-[#13161B]">
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 30</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Current Affairs One-Liners</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 31</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">MPSC Must Remember Facts</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 32</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Current Affairs → Static GK Connections</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 33</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Possible MPSC Questions</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 34</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Monthly MCQ Tests</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 35</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Error Book</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">Wrong MCQs, forgotten facts, weak topics, repeated mistakes</span>
+                                </div>
+                            </a>
+                            <a href="#" class="block w-full p-3 rounded-md bg-lightSurface dark:bg-darkSurface border-l-4 border-chapLight dark:border-chapDark hover:bg-[#E5F5EC] dark:hover:bg-[#182B1E] border border-borderLight dark:border-borderDark transition-colors group">
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-xs md:text-sm font-bold text-chapLight dark:text-chapDark uppercase">Chapter 36</span>
+                                    <span class="text-sm md:text-base font-medium text-lightMain dark:text-darkMain group-hover:text-chapLight dark:group-hover:text-chapDark transition-colors">Final Current Affairs Master Revision</span>
+                                    <span class="text-xs text-lightSec dark:text-darkSec mt-1">High-yield material before exam</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
                 </div>
             </div>
-
-            <!-- Note: You can copy the entire SUBJECT block above and paste it below for "इतिहास", "भूगोल", etc. -->
+            
+            <!-- Other Subjects will be added below -->
 
         </div>
 
